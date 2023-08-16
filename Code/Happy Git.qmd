@@ -1,0 +1,31 @@
+
+1st step: github.com to create a new repo
+
+
+2nd:When a new case got assigned, a new R project will be created in the consultant specified directiory. SW habit: Casenumber_Clienlastname_clientfirstname. From git
+
+```{r}
+#| label: load-pkg
+library(usethis)
+## file folder setup
+library(fs)   # creat folder dir_create()
+library(here) # easy to do cross reference in the project.
+
+
+```
+
+
+```{r}
+usethis::create_from_github(
+  "https://github.com/SichaoW58/C5858_Wang_Sichao.git",
+  destdir = "C:/Users/wangsic1/OneDrive - Michigan State University/CSTAT main/2023 Summer/Case/"
+)
+```
+2nd step: copy the setup file.
+
+```{r}
+#| label: move set up file
+
+file_copy("C:/Users/wangsic1/OneDrive - Michigan State University/CSTAT main/Template/2nd_Set up folders_8_7_2023.qmd", "C:/Users/wangsic1/OneDrive - Michigan State University/CSTAT main/2023 Summer/Case/C5858_Wang_Sichao", overwrite = FALSE)
+
+```
