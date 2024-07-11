@@ -39,7 +39,7 @@ dir_create(here("Emails"))    # correspondence
 
 file_copy("C:/Users/wangsic1/OneDrive - Michigan State University/CSTAT main/Template/Quarto template for CVM/A template_IDA/idatemplate.qmd", here("Code/analysis_ida.qmd"), overwrite = FALSE)
 
-"P:\\\THAA\\"
+# "P:\\\THAA\\"
 
 # The first argument is the existing setup file:
 "C:/Users/wangsic1/OneDrive - Michigan State University/CSTAT main/Template/Quarto template_THAA_6_30_2023.qmd"
